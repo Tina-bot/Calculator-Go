@@ -1,4 +1,4 @@
-package operators
+package operatorsFunc
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ func Sum(operation string) int {
 
 		if error != nil {
 			fmt.Println(error)
-			fmt.Println("Error, verifique que fue lo ingresado")
+			fmt.Println("Error, check what you entered")
 		} else {
 			result += num
 		}
