@@ -19,8 +19,9 @@ func Multiply(operation string) int {
 		} else {
 			if result == 0 {
 				result = num
+			} else {
+				result *= num
 			}
-			result *= num
 		}
 	}
 	return result

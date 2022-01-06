@@ -18,9 +18,10 @@ func Division(operation string) int {
 			fmt.Println("Error, check what you entered")
 		} else {
 			if result == 0 {
-				result = 1
+				result = num
+			} else {
+				result /= num
 			}
-			result /= num
 		}
 	}
 	return result
